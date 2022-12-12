@@ -1,7 +1,7 @@
 # Parks-and-Vallyes-Capstone-2--Final
 
 
-Parks and Valley's is a website that allows users to search for National Parks and Mountains to visit. The website provides detailed information about each park or mountain, including its location, attractions, and activities.
+Parks and Valley's is a website that allows users to search for National Parks and Mountains to visit. The website provides detailed information about each park or mountain, including its address location, lattidude, longitude, and Mountain trail difficulty.
 
 Users can search for parks and mountains by name, location, or also filter their search results by the type of park they are looking for, such as National Parks, State Parks, etc.
 
