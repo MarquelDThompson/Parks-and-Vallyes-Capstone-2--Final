@@ -1,5 +1,6 @@
-//Select a state from this dropdown
-function CreateDropDown(selectbox,text,value )
+//This function creates a drop-down menu , 
+//creating a new option element 
+function CreateDropDown(selectbox,text,value)
 {
 	var optn = document.createElement("OPTION");
 	optn.text = text;
@@ -7,6 +8,8 @@ function CreateDropDown(selectbox,text,value )
 	selectbox.options.add(optn);
 }
 
+//This function creates a drop-down menu , 
+//creating a new option element 
 function loadFilterByStateList(){
     const locationsArray = [
         "Alabama",
@@ -71,7 +74,7 @@ for (var i=0; i < locationsArray.length;++i){
 }
 
 //When this function is called, it will loop through the items in the parkTypes array
-//and add each item as an option in the parkTypeDropDown dropdown list. 
+//and add each park type as an option in the parkTypeDropDown dropdown list. 
 
 function loadNationalParkDropDownlist() {
     for (var i=0; i < parkTypesArray.length;++i){

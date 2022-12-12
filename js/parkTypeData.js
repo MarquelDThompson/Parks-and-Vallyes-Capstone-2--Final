@@ -1,5 +1,5 @@
 
-//function for park types filter 
+//This function creates a drop-down menu  that will include park typrs
 
 function parkTypes(selectbox,text,value )
 {

@@ -1,9 +1,11 @@
 /* Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quattrocento+Sans&family=Quicksand:wght@400;500&family=Roboto:wght@100&display=swap');
+
 
 /*Nav Bar */
 .navbar{
-    font-family: "Quicksand", sans-serif;
+    font-family:'Quattrocento Sans', sans-serif;
     margin-left: 5px;
     font-size: x-large;
 
@@ -45,7 +47,7 @@
     length: 250px; 
 }
 .mountain-name {
-    font-family: "Quicksand", sans-serif;
+    font-family:'Quattrocento Sans', sans-serif;
     font-size: x-large;
 }
 .mountain-desc {
@@ -87,7 +89,7 @@
 .location-name {
    
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family:'Quattrocento Sans', sans-serif;
     margin-left: 5px;
     font-size: x-large;
 }
