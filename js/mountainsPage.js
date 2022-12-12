@@ -1,4 +1,4 @@
-//It creates a new option element with the specified text and value, and adds it to the select box 
+//creates a new option element with the specified text and value 
 function mountainDropDown(selectbox,text,value )
 {
 	var optn = document.createElement("option");
@@ -6,7 +6,7 @@ function mountainDropDown(selectbox,text,value )
 	optn.value = value;
 	selectbox.options.add(optn);
 }
-// populate a drop-down menu with a list of mountains using the for loop
+// populate the drop-down menu with a list of mountains using the for loop
 
 function mountainDropDownList(){
 for (var i=0; i < mountainsArray.length;++i){

@@ -1,5 +1,4 @@
-//This function creates a drop-down menu , 
-//creating a new option element 
+///This function creates new option elements for drop down with the specified text and value,
 function CreateDropDown(selectbox,text,value)
 {
 	var optn = document.createElement("OPTION");
@@ -8,8 +7,8 @@ function CreateDropDown(selectbox,text,value)
 	selectbox.options.add(optn);
 }
 
-//This function creates a drop-down menu , 
-//creating a new option element 
+//This function loads the state list into the select element 
+
 function loadFilterByStateList(){
     const locationsArray = [
         "Alabama",
