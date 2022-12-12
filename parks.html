@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Parks</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link href="styles/styles.css" rel="stylesheet"> 
+
+
+</head>
+
+<body class="parksBackgroundBody">
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <div class="nav navbar-nav">
+          <a class="nav-item nav-link active" href="index.html" aria-current="page">Parks + Valleys <span class="visually-hidden">(current)</span></a>
+          <a class="nav-item nav-link" href="parks.html">National Parks</a>
+          <a class="nav-item nav-link" href="mountains.html">Mountain Ranges</a>
+      </div>
+  </nav>
+  </header>
+  <main>
+ 
+    <!--Drop Downs filters for States and Park Types -->
+ <center>
+              <div class="container">            
+              <form name="drop_list">
+                        <select  id="stateDropDown" onchange="filterByState()">
+                         
+                          <option>Search by Location</option>
+                        </select>
+                        Or you can 
+                        <select id="parkTypeDropDown" onchange="filterByParkType()">
+                          <option>Search by Park Type</option>
+                        </select>
+                        </form><br>
+</center>
+   
+          <!--This is where the card for the Parks will show up -->
+            <div class="container">
+            <div id="parks"></div>
+            </div>
+          </div>
+
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+<!-- Javascript -->
+<script src="/js/locationData.js"></script> 
+<script src="/js/parksPage.js"></script> 
+<script src="/js/parkTypeData.js"></script>  
+<script src="/js/nationalParkData.js"></script>
+
+</body>
+
+</html>

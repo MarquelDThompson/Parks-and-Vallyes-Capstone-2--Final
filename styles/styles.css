@@ -1,0 +1,116 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+/*Nav Bar */
+.navbar{
+    font-family: "Quicksand", sans-serif;
+    margin-left: 5px;
+    font-size: x-large;
+
+}
+
+/* carousel */
+
+ .carousel-item {
+     width: 100%;
+    height: 640px;
+ }
+ .carouselPicture {
+     width: 100%;
+     height: 640px;
+ }
+
+  /* mointains page background*/
+ .backgroundBody {
+    background-image: url('/images/canyonWater.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+
+  /* mountain cards */
+.mountain {    
+    max-width: 650px;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #8cbef3e7;
+}
+.mountain-photo {
+    margin: 10px;
+    float:inline-start;
+    width: 200px;
+    length: 250px; 
+}
+.mountain-name {
+    font-family: "Quicksand", sans-serif;
+    font-size: x-large;
+}
+.mountain-desc {
+    font-family: "Quicksand", sans-serif;
+    display: block;
+    font-size: large;
+}
+.app-title {
+    color: rgb(255, 255, 255);
+}
+.footer {
+    color: white;
+}
+/* Parks Page */ 
+
+
+/* Parks background*/
+
+  .parksBackgroundBody {
+    background-image: url('/images/parksBackground.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+
+/* Parks dropdown */
+#stateDropDown {
+    width: 300px;
+}
+#parkTypeDropDown {
+    width: 300px;
+}
+/* park cards */
+.parks {
+    width: 600px;
+    background-color: #b1d5fbe7;
+}
+.location-name {
+   
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 5px;
+    font-size: x-large;
+}
+.park-address {
+    font-size: larger;
+    margin-left: 5px;
+}
+.park-city {
+    font-size: larger;
+    margin-left: 5px;
+}
+.park-lang {
+    margin-left: 5px;
+}
+/* Footer */
+#socials {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #c4ddc6;
+}
+.fa-brands {
+    margin-top: 15px;
+    margin-left: 15px;
+}
