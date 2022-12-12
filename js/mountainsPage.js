@@ -6,7 +6,7 @@ function mountainDropDown(selectbox,text,value )
 	optn.value = value;
 	selectbox.options.add(optn);
 }
-// populate the drop-down menu with a list of mountains using the for loop
+// populate  drop-down menu with a list of mountains using the for loop
 
 function mountainDropDownList(){
 for (var i=0; i < mountainsArray.length;++i){
