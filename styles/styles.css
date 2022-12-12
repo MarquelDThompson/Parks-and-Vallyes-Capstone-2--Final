@@ -33,6 +33,7 @@
 
   /* mountain cards */
 .mountain {    
+    
     max-width: 650px;
     padding: 20px;
     margin: 30px auto;
@@ -84,6 +85,9 @@
 }
 /* park cards */
 .parks {
+  padding-top: 10px;
+    padding-left: 10px;
+    height: 140px;
     width: 600px;
     background-color: #b1d5fbe7;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.698);
