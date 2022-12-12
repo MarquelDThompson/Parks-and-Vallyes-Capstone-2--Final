@@ -18,3 +18,7 @@ Overall, Parks and Valley's is a comprehensive and user-friendly resource for an
 <img width="1440" alt="Screen Shot 2022-12-12 at 12 13 23 PM" src="https://user-images.githubusercontent.com/116209354/207150131-eb7d0368-85ed-40e9-99e8-8024a96d75b7.png">
 <img width="1440" alt="Screen Shot 2022-12-12 at 12 13 49 PM" src="https://user-images.githubusercontent.com/116209354/207150140-5b52dc1c-682f-4d16-92a2-5859c29397ed.png">
 <img width="1440" alt="Screen Shot 2022-12-12 at 12 14 08 PM" src="https://user-images.githubusercontent.com/116209354/207150154-6a564b0b-1498-4b9d-bd0d-62bb12138fc2.png">
+<img width="1440" alt="Screen Shot 2022-12-12 at 1 23 47 PM" src="https://user-images.githubusercontent.com/116209354/207157620-f4cfd315-c22b-4ad6-a553-680af9b3c77b.png">
+
+Intersting code that was noteworthy and something I was proud of was implementing the google map locations on the home page the site . 
+I think it looked reallly proffessional and was actually pretty easy to do .
